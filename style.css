@@ -318,6 +318,28 @@ body {
     flex: 1;
 }
 
+/* 설명 섹션 */
+.explanation-section {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #e2e8f0;
+}
+
+.explanation-box {
+    background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+    border-left: 4px solid #0284c7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.explanation-box p {
+    color: #0c4a6e;
+    font-size: 0.95em;
+    line-height: 1.8;
+    margin: 0;
+}
+
 .quiz-actions {
     display: flex;
     gap: 10px;
@@ -400,6 +422,57 @@ body {
 .result-details h3 {
     color: #333;
     margin-bottom: 15px;
+}
+
+/* 선택 경로별 점수 요약 */
+.selection-summary {
+    background: #f7fafc;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 2px solid #e2e8f0;
+}
+
+.selection-summary h3 {
+    color: #333;
+    margin: 20px 0 15px 0;
+    font-size: 1.1em;
+}
+
+.selection-summary h3:first-child {
+    margin-top: 0;
+}
+
+.summary-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.summary-item {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.summary-label {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.summary-score {
+    color: #667eea;
+    font-weight: 700;
+    font-size: 1.1em;
+    background: #f0f5ff;
+    padding: 4px 12px;
+    border-radius: 4px;
 }
 
 #selectedProblemsTable {
