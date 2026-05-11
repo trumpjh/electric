@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전기기능사 필기 기출문제</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 초기 정보 입력 화면 -->
+        <div id="infoScreen" class="screen active">
+            <div class="info-card">
+                <h1>전기기능사 필기 기출문제</h1>
+                <p class="subtitle">시작하기 전에 정보를 입력해주세요</p>
+                
+                <div class="form-group">
+                    <label for="testDate">시험 날짜</label>
+                    <input type="date" id="testDate" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="studentName">성명</label>
+                    <input type="text" id="studentName" placeholder="이름을 입력하세요" required>
+                </div>
+                
+                <button id="startBtn" class="btn btn-primary">문제 선택하기</button>
+            </div>
+        </div>
+
+        <!-- 문제 선택 화면 -->
+        <div id="selectScreen" class="screen">
+            <div class="selection-container">
+                <h1>문제 선택</h1>
+                
+                <!-- 탭 선택 -->
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="byYear">년도별 / 회차별</button>
+                    <button class="tab-btn" data-tab="bySubject">단원별</button>
+                </div>
+
+                <!-- 년도별 / 회차별 탭 -->
+                <div id="byYear" class="tab-content active">
+                    <div class="selection-grid">
+                        <div id="yearSubjectContainer"></div>
+                    </div>
+                </div>
+
+                <!-- 단원별 탭 -->
+                <div id="bySubject" class="tab-content">
+                    <div class="selection-grid">
+                        <div id="subjectContainer"></div>
+                    </div>
+                </div>
+
+                <div class="selection-actions">
+                    <button id="startQuizBtn" class="btn btn-success">선택한 문제 풀기</button>
+                    <button id="backToInfoBtn" class="btn btn-secondary">뒤로가기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 문제 풀기 화면 -->
+        <div id="quizScreen" class="screen">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h1 id="quizTitle"></h1>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <p id="progressText"></p>
+                </div>
+
+                <div class="question-content">
+                    <h2 id="questionNumber"></h2>
+                    <p id="questionText"></p>
+                    
+                    <div id="optionsContainer" class="options-container"></div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button id="prevBtn" class="btn btn-secondary">이전</button>
+                    <button id="nextBtn" class="btn btn-primary">다음</button>
+                    <button id="submitBtn" class="btn btn-success" style="display: none;">채점하기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 결과 화면 -->
+        <div id="resultScreen" class="screen">
+            <div class="result-card">
+                <h1>풀이 결과</h1>
+                
+                <div class="result-info">
+                    <div class="info-row">
+                        <span class="label">성명:</span>
+                        <span id="resultName"></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">날짜:</span>
+                        <span id="resultDate"></span>
+                    </div>
+                </div>
+
+                <div class="result-score">
+                    <div class="score-box">
+                        <p class="score-label">정답</p>
+                        <p class="score-number" id="correctCount">0</p>
+                    </div>
+                    <div class="score-box">
+                        <p class="score-label">전체</p>
+                        <p class="score-number" id="totalCount">0</p>
+                    </div>
+                    <div class="score-box">
+                        <p class="score-label">정답률</p>
+                        <p class="score-number" id="correctRate">0%</p>
+                    </div>
+                </div>
+
+                <div class="result-details">
+                    <h3>선택한 문제 목록</h3>
+                    <div id="selectedProblemsTable"></div>
+                </div>
+
+                <div class="result-actions">
+                    <button id="retryBtn" class="btn btn-primary">다시 풀기</button>
+                    <button id="newTestBtn" class="btn btn-secondary">새로운 시험</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
