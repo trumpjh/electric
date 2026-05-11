@@ -1,0 +1,170 @@
+[
+  {
+    "text": "진동이 심한 전기 기계기구의 단자에 전선을 접속할 때 사용되는것은? ④",
+    "options": [
+      "①커플링 ②압착단자 ③링슬리브 ④스프링와셔"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "진동이 있는 단자에 전선을 접속할 때 스프링 와셔 또는 이중너트를 사용하여 접속한다."
+  },
+  {
+    "text": "는 무엇의 심벌인가? ①",
+    "options": [
+      "① 지진감지기 ② 소형 변압기 ③ 누전경보기 ④ 전류제한기"
+    ],
+    "has_image": true,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 1,
+    "explanation": "EQ는 지진 감지기로 지진을 가리키는 영어 단어(Earthquake)에서 글자를 따와서 심벌로 사용한다."
+  },
+  {
+    "text": "다음 보기 중 접지시스템의 종류가 아닌 것은? ④",
+    "options": [
+      "단독접지 ②공통접지 ③통합접지 ④보호접지"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "접지시스템의 시설 종류에는 단독 접지. 공통 접지. 통합 접지가 있다."
+  },
+  {
+    "text": "전기기기의 철심 재료로 규소강판을 많이 사용하는 이유로 가장 적당한 것은? ③",
+    "options": [
+      "①와류손을줄이기 위해",
+      "② 맴돌이 전류를 없애기 위해",
+      "③ 히스테리시스손을줄이기 위해",
+      "④ 구리손을줄이기 위해"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "철심은 전기기기에서 자기회로를 만드는 부분으로 회전에 따른 자속 방 항이 수시로 변화하여 와류손이나 히스테리시스손으로 인한 철손이 발 생한다. 와류손은 얇은 철심을 여러 겹 겹친 성층 철심을 사용하여. 히스 테리시스손은 규소 강판 철심을 사용하여 각각 줄일 수 있다."
+  },
+  {
+    "text": "회로의전기저항값은? ②",
+    "options": [
+      "① 6.4 ② 7.4 ③ 10.4 ④ 12.4"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "전체 저항 [수식]"
+  },
+  {
+    "text": "2전력계법에 의해 3상 전력을 측정하여 전력계가 P1, P2를 나타냈다면 무효전력의 식은? ④",
+    "options": [
+      "①  ②  ③  ④  [수식]  [수식]  [수식]  [수식]"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "2전력계법으로 3상 전력을 측정할 때 유효전력  무효전력 이다. [수식]  [수식]"
+  },
+  {
+    "text": "1차 전압 6,300[V], 2차 전압 210[V]. 주파수 60[Hz]의 변압기가 있다. 이 변압기의 권수비는? ①",
+    "options": [
+      "① 30 ② 40 ③ 50 ④ 60"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "권수비 에서  [수식]  [수식]"
+  },
+  {
+    "text": "다음 중 전위의 단위가 아닌 것은? ①",
+    "options": [
+      "① [V/m] ② [V] ③[N·m/c] ④[J/C]"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "전위의 단위는 [V]를 사용한다. 전기가 한 일 W=VQ(단. Q: 전하량)"
+  },
+  {
+    "text": "4극 고정자, 홈 수 36의 3상 유도 전동기의 홈 간격은 전기 각의 몇 도인가? ④",
+    "options": [
+      "①5° ②10° ③15° ④20°"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "홈 수 n=36인 유도 전동기의 전기각 기하각에 대하여  (단,P:극수) 따라서 홈 각격의 전기가은 20 [수식]  [수식]  [수식]  [수식]"
+  },
+  {
+    "text": "주파수 60[Hz]의 회로에 접속되어 슬립 3[%], 회전수 1,164[rpm]으로 회전하고 있는 유도 전동기의 극수는? ②",
+    "options": [
+      "① 4 ② 6 ③ 8 ④ 10"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "s= 0.03=(단,동기속도[rpm])에서  [수식]  [수식]"
+  },
+  {
+    "text": "전선 접속 시 사용도는 슬리브(Sleeve)의 종류가 아닌 것은? ③",
+    "options": [
+      "① E형 ② S형 ③ D형 ④ P형"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "전선 접속 시 사용되는 슬리브(Sleeve)의 종류에는 C형. E형. P형. S형 등이있다."
+  },
+  {
+    "text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은? ④",
+    "options": [
+      "① 저항 측정 ② 무부하 시험 ③ 구속 시험 ④ 슬립 측정"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "원선도는 정격 출력에 대한 전부하 전류, 역률 효율 슬립, 최대출력. 정격출력. 부하 회전력 및 최대 회전력을 구할 때 사용하며, 원선도 작성에 필요한 시험으로는 저항 측정 시험, 무부하 시험, 구속 시험 등이 있다."
+  },
+  {
+    "text": "22.9[kV-Y] 가공전선의 굵기는 단면적이 몇 []이상이어야 하는가?（단, 동선의 경우이다.) ① [수식]",
+    "options": [
+      "① 22 ② 32 ③ 40 ④ 50"
+    ],
+    "has_image": false,
+    "has_math": true,
+    "math_count": 1,
+    "image_count": 0,
+    "explanation": "특고압 가공전선의 굵기는 구리(동)선의 경우 단면적이 22[]이상 이어야 하고 ACSR의 경우는 32[]이상이어야 한다. [수식]  [수식]"
+  },
+  {
+    "text": "금속몰드의 지지점 간의 거리는 몇 [m] 이하로 하는 것이 가장바람직한가? ②",
+    "options": [
+      "① 1   1.5 ③ 2 ④ 3"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "금속몰드공사"
+  },
+  {
+    "text": "영구 자석 또는 전자석 끝부분에 설치한 자성 재료편으로서, 전기자에 대응하여 계자 자속을 공극에 적당히 분포시키는 역할을 하는 것은 무엇인가? ①",
+    "options": [
+      "① 자극편 ② 정류자 ③ 공극 ④ 브러시"
+    ],
+    "has_image": false,
+    "has_math": false,
+    "math_count": 0,
+    "image_count": 0,
+    "explanation": "• 자극편: 영구 자석 또는 전자석으로 구성되어 주 자속을 만들고 분포 시키는 부분으로 계자라고도 한다."
+  }
+]

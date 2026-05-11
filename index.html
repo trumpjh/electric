@@ -71,11 +71,18 @@
                     <p id="progressText"></p>
                 </div>
 
-                <div class="question-content">
-                    <h2 id="questionNumber"></h2>
-                    <p id="questionText"></p>
-                    
-                    <div id="optionsContainer" class="options-container"></div>
+                <div class="quiz-content-wrapper">
+                    <div class="question-content">
+                        <h2 id="questionNumber"></h2>
+                        <p id="questionText"></p>
+                        
+                        <!-- 그림 표시 영역 -->
+                        <div id="imageContainer" class="image-container" style="display: none;">
+                            <img id="questionImage" src="" alt="문제 그림" class="question-image">
+                        </div>
+                        
+                        <div id="optionsContainer" class="options-container"></div>
+                    </div>
                     
                     <!-- 설명 섹션 -->
                     <div id="explanationSection" class="explanation-section" style="display: none;">

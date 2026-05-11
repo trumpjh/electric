@@ -1,3 +1,6 @@
+// 단원별 분류
+const subjectCategories = ['전기설비', '전기기기', '전기이론'];
+
 // 전역 상태 관리
 let appState = {
     testDate: '',
@@ -296,6 +299,15 @@ function displayQuestion() {
     // 문제 표시
     document.getElementById('questionNumber').textContent = `${problem.number}번 (${problem.category})`;
     document.getElementById('questionText').textContent = problem.text;
+    
+    // 그림 표시
+    const imageContainer = document.getElementById('imageContainer');
+    if (problem.image) {
+        document.getElementById('questionImage').src = problem.image;
+        imageContainer.style.display = 'block';
+    } else {
+        imageContainer.style.display = 'none';
+    }
     
     // 설명 섹션 초기화
     const explanationSection = document.getElementById('explanationSection');

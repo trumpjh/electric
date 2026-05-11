@@ -1,0 +1,156 @@
+{
+  "total": 12,
+  "problems": [
+    {
+      "number": 1,
+      "text": "진동이 심한 전기 기계기구의 단자에 전선을 접속할 때 사용되는것은?",
+      "options": [
+        "커플링",
+        "압착단자",
+        "링슬리브",
+        "스프링와셔"
+      ],
+      "answer": 4,
+      "category": "전기설비",
+      "explanation": "설명) 전기설비 CHAPTER 03 전선의 접속"
+    },
+    {
+      "number": 2,
+      "text": "는 무엇의 심벌인가?",
+      "options": [
+        "지진감지기",
+        "소형 변압기",
+        "누전경보기",
+        "전류제한기"
+      ],
+      "answer": 1,
+      "category": "전기설비",
+      "explanation": "설명) 전기설비 CHAPTER 02 배선재료와 공구"
+    },
+    {
+      "number": 3,
+      "text": "회로의전기저항값은?",
+      "options": [
+        "6.4",
+        "7.4",
+        "10.4",
+        "12.4"
+      ],
+      "answer": 2,
+      "category": "전기이론",
+      "explanation": "설명) 전기이론 CHAPTER 02 전기회로 해석"
+    },
+    {
+      "number": 4,
+      "text": "2전력계법에 의해 3상 전력을 측정하여 전력계가 P1, P2를 나타냈다면 무효전력의 식은?",
+      "options": [],
+      "answer": 4,
+      "category": "전기이론",
+      "explanation": "설명) 전기이론 CHAPTER 08 3상 교류회로"
+    },
+    {
+      "number": 5,
+      "text": "1차 전압 6,300[V], 2차 전압 210[V]. 주파수 60[Hz]의 변압기가 있다. 이 변압기의 권수비는?",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "answer": 1,
+      "category": "전기이론",
+      "explanation": ""
+    },
+    {
+      "number": 6,
+      "text": "다음 중 전위의 단위가 아닌 것은?",
+      "options": [
+        "[V/m]",
+        "[V]",
+        "[N·m/c]",
+        "[J/C]"
+      ],
+      "answer": 1,
+      "category": "전기이론",
+      "explanation": "설명)전기이론 CHAPTER01 직류회로"
+    },
+    {
+      "number": 7,
+      "text": "4극 고정자, 홈 수 36의 3상 유도 전동기의 홈 간격은 전기 각의 몇 도인가?",
+      "options": [
+        "5°",
+        "10°",
+        "15°",
+        "20°"
+      ],
+      "answer": 4,
+      "category": "전기기기",
+      "explanation": "설명)전기기기 CHAPTER 04 유도기"
+    },
+    {
+      "number": 8,
+      "text": "주파수 60[Hz]의 회로에 접속되어 슬립 3[%], 회전수 1,164[rpm]으로 회전하고 있는 유도 전동기의 극수는?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "category": "전기기기",
+      "explanation": "설명) 전기기기 CHAPTER 04 유도기"
+    },
+    {
+      "number": 9,
+      "text": "전선 접속 시 사용도는 슬리브(Sleeve)의 종류가 아닌 것은?",
+      "options": [
+        "E형",
+        "S형",
+        "D형",
+        "P형"
+      ],
+      "answer": 3,
+      "category": "전기설비",
+      "explanation": "설명) 전기설비 CHAPTER 03 전선의 접속"
+    },
+    {
+      "number": 10,
+      "text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은?",
+      "options": [
+        "저항 측정",
+        "무부하 시험",
+        "구속 시험",
+        "슬립 측정"
+      ],
+      "answer": 4,
+      "category": "전기기기",
+      "explanation": "설명) 전기기기 CHAPTER 04 유도기"
+    },
+    {
+      "number": 11,
+      "text": "22.9[kV-Y] 가공전선의 굵기는 단면적이 몇 []이상이어야 하는가?（단, 동선의 경우이다.)",
+      "options": [
+        "22",
+        "32",
+        "40",
+        "50"
+      ],
+      "answer": 1,
+      "category": "전기설비",
+      "explanation": "설명) 전기설비 CHAPTER 06 전선로 및 배전선 공사"
+    },
+    {
+      "number": 12,
+      "text": "영구 자석 또는 전자석 끝부분에 설치한 자성 재료편으로서, 전기자에 대응하여 계자 자속을 공극에 적당히 분포시키는 역할을 하는 것은 무엇인가?",
+      "options": [
+        "자극편",
+        "정류자",
+        "공극",
+        "브러시"
+      ],
+      "answer": 1,
+      "category": "전기기기",
+      "explanation": "설명) 전기기기 CHAPTER 01 직류기"
+    }
+  ]
+}
